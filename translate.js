@@ -17,29 +17,42 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Get all switchable elements.
     switchableElements = document.getElementsByClassName('lang');
-
-
     // Set default language.
-    for (let i = 0; i < switchableElements.length; i++)
-        if (switchableElements[i].hasAttribute(defaultLanguage))
-            switchableElements[i].innerHTML = switchableElements[i].getAttribute(defaultLanguage);
-
+    switchLanguageTo(defaultLanguage);
 }, false);
 
 // Switch language to Japanese.
 function switchLanguageToJp() {
-    for (let i = 0; i < switchableElements.length; i++)
-        if (switchableElements[i].hasAttribute('data-jp'))
-            switchableElements[i].innerHTML = switchableElements[i].getAttribute('data-jp');
+    switchLanguageTo(jp);
 }
 
 // Switch language to English.
 function switchLanguageToEn() {
-    for (let i = 0; i < switchableElements.length; i++)
-        if (switchableElements[i].hasAttribute('data-en'))
-            switchableElements[i].innerHTML = switchableElements[i].getAttribute('data-en');
+    switchLanguageTo(en);
 }
 
+// Switch language to some language.
+function switchLanguageTo(lang) {
+    for (let i = 0; i < switchableElements.length; i++)
+        if (switchableElements[i].hasAttribute(lang))
+            switch (switchableElements[i].tagName) {
+                case "IMG":
+                case "VIDEO":
+                case "AUDIO":
+                case "EMBED":
+                case "IFRAME":
+                    switchableElements[i].src = switchableElements[i].getAttribute(lang);
+                    break;
+                case "INPUT":
+                    switchableElements[i].value = switchableElements[i].getAttribute(lang);
+
+                    break;
+                case "BUTTON":
+                default:
+                    switchableElements[i].innerHTML = switchableElements[i].getAttribute(lang);
+                    break;
+            }
+}
 ////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////// END OF FILE //////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
