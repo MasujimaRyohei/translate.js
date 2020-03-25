@@ -39,14 +39,54 @@ document.addEventListener('DOMContentLoaded', function () {
     switchLanguageTo(defaultLanguage);
 }, false);
 
-// Switch language to Japanese.
-function switchLanguageToJp() {
-    switchLanguageTo(langs.jp);
+// Switch language to Chinese.
+function switchLanguageToCn() {
+    switchLanguageTo(langs.cn);
 }
 
 // Switch language to English.
 function switchLanguageToEn() {
     switchLanguageTo(langs.en);
+}
+
+// Switch language to Hindi.
+function switchLanguageToIn() {
+    switchLanguageTo(langs.in);
+}
+
+// Switch language to Spain.
+function switchLanguageToEs() {
+    switchLanguageTo(langs.es);
+}
+
+// Switch language to Egypt.
+function switchLanguageToEg() {
+    switchLanguageTo(langs.eg);
+}
+
+// Switch language to Bangladesh.
+function switchLanguageToBd() {
+    switchLanguageTo(langs.bd);
+}
+
+// Switch language to Portugal.
+function switchLanguageToPt() {
+    switchLanguageTo(langs.pt);
+}
+
+// Switch language to Russia.
+function switchLanguageToRu() {
+    switchLanguageTo(langs.ru);
+}
+
+// Switch language to Japanese.
+function switchLanguageToJp() {
+    switchLanguageTo(langs.jp);
+}
+
+// Switch language to France.
+function switchLanguageToFr() {
+    switchLanguageTo(langs.fr);
 }
 
 // Switch language to some language.
