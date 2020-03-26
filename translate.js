@@ -24,6 +24,14 @@ var langs = {
     kw: "data-kw", kg: "data-kg", la: "data-la", lv: "data-lv", lb: "data-lb", ls: "data-ls", lr: "data-lr", ly: "data-ly",
     li: "data-li", lt: "data-lt", lu: "data-lu", mo: "data-mo", mg: "data-mg", mw: "data-mw", my: "data-my", mv: "data-mv",
     ml: "data-ml", mt: "data-mt", mh: "data-mh", mq: "data-nq", mr: "data-mr", mu: "data-mu", yt: "data-yt", mx: "data-mx",
+    fm: "data-fm", md: "data-md", mc: "data-mc", mn: "data-mn", me: "data-me", ms: "data-ms", ma: "data-ma", mz: "data-mz",
+    mm: "data-mm", na: "data-na", nr: "data-nr", np: "data-np", nl: "data-nl", nc: "data-nc", nz: "data-nz", ni: "data-ni",
+    ne: "data-ne", ng: "data-ng", nu: "data-nu", nf: "data-nf", mk: "data-mk", mp: "data-mp", no: "data-no", om: "data-om",
+    pk: "data-pk", pw: "data-pw", ps: "data-ps", pa: "data-pa", pg: "data-pg", py: "data-py", pe: "data-pe", ph: "data-ph",
+    pn: "data-pn", pl: "data-pl", pr: "data-pr", qa: "data-qa", re: "data-re", ro: "data-ro", ru: "data-ru", rw: "data-rw",
+    bl: "data-bl", sh: "data-sh", kn: "data-kn", lc: "data-lc", mf: "data-mf", pm: "data-pm", vc: "data-vc", ws: "data-ws",
+    sm: "data-sm", st: "data-st", sa: "data-sa", sn: "data-sn", rs: "data-rs", sc: "data-sc", sl: "data-sl", sg: "data-sg",
+    sx: "data-sx", sk: "data-sk", si: "data-si",
     en: "data-en",
 }
 
