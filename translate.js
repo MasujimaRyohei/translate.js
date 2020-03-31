@@ -31,8 +31,12 @@ var langs = {
     pn: "data-pn", pl: "data-pl", pr: "data-pr", qa: "data-qa", re: "data-re", ro: "data-ro", ru: "data-ru", rw: "data-rw",
     bl: "data-bl", sh: "data-sh", kn: "data-kn", lc: "data-lc", mf: "data-mf", pm: "data-pm", vc: "data-vc", ws: "data-ws",
     sm: "data-sm", st: "data-st", sa: "data-sa", sn: "data-sn", rs: "data-rs", sc: "data-sc", sl: "data-sl", sg: "data-sg",
-    sx: "data-sx", sk: "data-sk", si: "data-si",
-    en: "data-en",
+    sx: "data-sx", sk: "data-sk", si: "data-si", sb: "data-sb", so: "data-so", za: "data-za", gs: "data-gs", ss: "data-ss",
+    es: "data-es", lk: "data-lk", sd: "data-sd", sr: "data-sr", se: "data-se", ch: "data-ch", sy: "data-sy", tw: "data-tw",
+    tj: "data-tj", tz: "data-tz", th: "data-th", tl: "data-tl", tg: "data-tg", tk: "data-tk", to: "data-to", tt: "data-tt",
+    tn: "data-tn", tr: "data-tr", tm: "data-tm", tc: "data-tc", tv: "data-tv", ug: "data-ug", ua: "data-ua", ae: "data-ae",
+    gb: "data-gb", us: "data-us", um: "data-um", uy: "data-uy", uz: "data-uz", vu: "data-vu", ve: "data-ve", vn: "data-vn",
+    vg: "data-vg", vi: "data-vi", wf: "data-wf", eh: "data-eh", ye: "data-ye", zm: "data-zm", zw: "data-zw", en: "data-en",
 }
 
 var switchableElements;
